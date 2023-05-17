@@ -7,12 +7,12 @@ const repository_1 = require("@loopback/repository");
 const config = {
     name: 'Mongodb',
     connector: 'mongodb',
-    url: 'mongodb://root:1234@localhost:27017/proyecto',
+    url: 'mongodb://root:1234@localhost:27017/facturacion',
     host: 'localhost',
     port: 27017,
     user: 'root',
     password: '1234',
-    database: 'proyecto',
+    database: 'facturacion',
     useNewUrlParser: false
 };
 // Observe application's life cycle to disconnect the datasource when
